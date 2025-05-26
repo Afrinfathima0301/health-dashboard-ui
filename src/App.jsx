@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Header from './components/header/header.jsx';
+import Header from './components/Header/Header.jsx';
 import SideBar from './components/SideBar/SiderBar.jsx';
 import DashboardMainContent from './components/DashboardMainContent/DashboardMainContent.jsx';
 function App(){
