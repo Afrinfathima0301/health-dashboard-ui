@@ -1,0 +1,107 @@
+/* dashboadmaincontent */
+.container {padding: 1rem;margin-top: 6rem;}
+.dashboardTop{display: flex;justify-content: space-between;margin-bottom: 1rem;color: #241461;}
+.rightColumn {background-color: #f5f9ff;margin-top: 2rem; }
+
+/* anatomy section */
+.anatomyContainer { position: relative; width: 250px; margin: 0 auto; padding: 2rem; }
+.anatomySection {border-radius: 20px;box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; }
+.anatomyImage { width: 100%; height: auto; display: block; }
+.indicator { position: absolute; background-color: #fff; padding: 6px 10px; border-radius: 10px; font-size: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+.heart { top: 30%; left: 65%; transform: translate(-50%, -50%);background-color: #241461;color: #fff;}
+.leg { top: 75%; left: 30%; transform: translate(-50%, -50%);background-color: #00d4ff;color: #241461; }
+
+/* healthstatuscard */
+.icon { width: 35px; height: 35px; }
+.title { font-weight: 600; font-size: 22px; color: #241461; }
+.progressBar { height: 6px; width: 100%; background-color: #e0e0e0; border-radius: 5px; overflow: hidden; }
+.progressFill { height: 100%; border-radius: 5px; }
+.healthCardsSection { display: flex; flex-direction: column; gap: 20px;margin-top: 2rem; }
+.cardContainer {display: flex;flex-wrap: wrap;gap: 20px; }
+.card { background-color: #f5f9ff; padding: 2rem 1rem; border-radius: 10px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; display: flex; flex-direction: column; gap: 8px;width: 45%;}
+.cardHeader { display: flex; align-items: center; gap: 1rem; }
+.date { font-size: 12px; margin-top: 8px; color: #96a1b0; }
+.statusBar { height: 8px; width: 100%; background-color: #dbeafe; border-radius: 4px; overflow: hidden; margin-top: 10px; }
+.status { display: block; height: 100%; border-radius: 4px; transition: width 0.3s ease-in-out; }
+.green { background-color: green; }
+.red { background-color: red; }
+.orange { background-color: orange; }
+
+/* calendar section */
+.calendarContainer { background-color: #fff; padding: 16px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); color: #241461; }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.navIcons { display: flex; gap: 8px; font-size: 18px; cursor: pointer; }
+.weekGrid { display: flex; justify-content: space-between; gap: 5px; }
+.dayColumn { background-color: #f9f9f9; border-radius: 12px; padding: 8px; flex: 1; text-align: center; }
+.today { background-color: #dae1ff; }
+.dayName { font-weight: 600; font-size: 14px; margin-bottom: 4px; }
+.dayDate { font-size: 18px; font-weight: bold; margin-bottom: 8px; }
+.timeSlots { display: flex; flex-direction: column; gap: 6px; }
+.timeSlot { padding: 6px 0; border-radius: 8px; background-color: #eee; font-size: 14px; }
+.booked { background-color: #241461; color: white; font-weight: bold; }
+.empty { color: #999; background-color: #f0f0f0; }
+
+/* appointment section */
+.appointmentCardsContainer { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2rem; color: #241461; }
+.appointmentCard { width: calc(60% - 1rem); background-color: #dae1ff; border-radius: 2rem; box-shadow: 0 1px 4px rgb(0 0 0 / 0.1); padding: 1rem; display: flex; flex-direction: column; justify-content: flex-start; position: relative; }
+.coloredCard { background-color: #241461; color: #fff;width: 40%; }
+.appointmentTopRow { display: flex; justify-content: space-between; align-items: center; }
+.appointmentTopRow h3{font-size: 16px;}
+.appointmentIcon { width: 40px; height: 40px; object-fit: contain; }
+.doctor,.time{font-size: 12px;}
+
+/* upcomingschedule section */
+.upcomingScheduleContainer { margin-top: 20px; }
+.scheduleTitle { font-size: 20px; font-weight: 600; margin-bottom: 12px; color: #241461; }
+.scheduleSection { margin-bottom: 20px; }
+.scheduleDay { font-size: 16px; font-weight: 500; margin-bottom: 10px; color: #888; }
+.scheduleCards { display: flex; gap: 1rem;}
+.scheduleCard { background-color: #dee3fa; border-radius: 20px; padding: 1rem; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; color: #241461; }
+.cardTopRow { display: flex; justify-content: space-between; align-items: center; }
+.cardTopRow h3{font-size: 16px;}
+.cardIcon { width: 28px; height: 28px; padding-left: 14px; }
+.cardTime { margin-top: 8px; color: #555; font-weight: 500;font-size: 14px;}
+
+/* activity section */
+.activityCard { background: #f9fbff; border-radius: 20px; padding: 20px 30px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05); max-width: 800px; margin: auto; }
+.activityHeader { display: flex; justify-content: space-between; align-items: center; font-family: 'Segoe UI', sans-serif; margin-bottom: 20px; }
+.activityTitle { font-size: 18px; color: #241461; }
+.activitySubtitle { font-size: 14px; color: #777; }
+.activityChart { display: flex;flex-wrap: wrap; justify-content: space-between; align-items: flex-end; }
+.activityDayColumn { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.activityBars { display: flex; flex-direction: row; align-items: flex-end; justify-content: center; gap: 1rem; height: 100px; }
+.activityBar { width: 6px; border-radius: 4px; transition: height 0.3s ease; }
+.short { height: 30px; }
+.medium { height: 60px; }
+.tall { height: 90px; }
+.activityDayLabel { font-size: 13px; color: #888; }
+.activityFeed{ margin-top: 2rem; }
+.details{display: flex; justify-content: end; flex-wrap: wrap; align-items: center; gap: 5px;color: #241461;}
+.cyan { background-color: #00d4ff; }
+.blue { background-color: #2e8cf0; }
+.purple { background-color: #533be0; }
+.gray { background-color: #ccc; }
+
+@media(min-width: 768px){
+  .anatomySection{width: 50%;}
+  .healthCardsSection{width: calc(50% - 2rem);margin-top: unset;}
+  .cardContainer{ flex-direction: column; }
+  .container{ width: 100%;}
+  .card{width: unset;}
+  .topLeft { display: flex; gap: 2rem; }
+  .weekGrid{gap: 8px;}
+}
+@media(min-width: 992px){
+  .container{ width: 80%;margin-left: auto;display: flex; gap: 3rem;margin-top: unset;}
+  .topLeft { display: flex; gap: 2rem; }
+  .leftColumn { width: 50%; }
+  .rightColumn { width: calc(50% - 3rem); margin-top: unset;}
+  .anatomySection { width: calc(60% - 2rem); }
+  .healthCardsSection{margin-top: unset; width: 40%;}
+  .activityFeed{ margin-top: 4rem; }
+  .appointmentCard{padding: 2rem;}
+  .appointmentTopRow h3{font-size: 22px;}
+  .scheduleCard{padding: 1.5rem;}
+  .cardTopRow h3{font-size: 18px;}
+  .doctor,.time{font-size: 14px;}
+}
