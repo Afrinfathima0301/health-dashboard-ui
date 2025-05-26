@@ -1,5 +1,5 @@
 import styles from "./DashboardMainContent.module.css";
-import healthData from "../../data/healthdata.js";
+import healthData from "../../data/healthData";
 import { FiArrowRight } from "react-icons/fi";
 
 const HealthStatusCards = ({ data }) => {
