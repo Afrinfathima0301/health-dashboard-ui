@@ -1,4 +1,4 @@
-.header {display: flex;align-items: center;justify-content: space-between;flex-wrap: wrap;background-color: #fff;height: 100px;position: sticky;top: 0;padding: 0 1rem;z-index: 9999;}
+.header {display: flex;align-items: center;justify-content: space-between;flex-wrap: wrap;background-color: #fff;height: 100px;position: sticky;top: 0;padding: 0 1rem;z-index: 999;}
 .hamburger {font-size: 24px;cursor: pointer;transition: transform 0.3s ease;}
 .hamburger:hover {transform: rotate(90deg);}
 .logo {display: flex;align-items: center;font-size: 1.5rem;font-weight: 600;padding: 1.7rem;}
